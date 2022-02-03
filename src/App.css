@@ -99,4 +99,10 @@ main {
     .icon {
         font-size: 24px;
     }
+
+}
+@media screen and (max-width: 400px) {
+    .value-list{
+        grid-template-columns: auto;
+    }
 }
